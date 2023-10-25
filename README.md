@@ -1,8 +1,11 @@
 # Simple physics engine (SPE) 2D
-Will try to do apply my physics skills from swedish gymnasiet course Fysik-2
+## The ultimate learning playground => Maths, Physics and Rust programming
+Will try to apply my physics skills from swedish gymnasiet course Fysik-2
 To build an 2D physics engine (Simulation- next step as i haven't done graphics in rust yet)
 
-I will go in the same pace as my course goes
+### ONGOING and not meant as an production crate
+It's my learning playground to learn Rust and physics engine design & graphics rendering (simulation)
+So don't have any expections of goodness in this project, it's probably a piece of junk haha
 
 ## TODO:
 - [ ] Calculator style SHM- simple haromonic motion. Pendelum and springs 
@@ -15,9 +18,7 @@ I will go in the same pace as my course goes
 relative to c++, that maybe is not true anymore)
 * learn about graphics rendering 
 * learn rust conccurency and multithearding, for high speeeeeed computation
-* get deeper understanding of simple physics concepts, that I learn in school
+* get better understanding of simple physic concepts, that I learn in school
 
-### ONGOING and not meant as an production crate
-It's my learning playground to learn Rust and engine design & graphics rendering
 
 
