@@ -5,10 +5,12 @@ To build an 2D physics engine (Simulation- next step as i haven't done graphics 
 
 ### ONGOING and not meant as an production crate
 It's my learning playground to learn Rust and physics engine design & graphics rendering (simulation)
-So don't have any expections of goodness in this project, it's probably a piece of junk haha
+Simply don't have any expections of goodness in this project, it's probably a piece of junk haha
 
 ## TODO:
-- [ ] Calculator style SHM- simple haromonic motion. Pendelum and springs 
+- [ ] Add units and prefixes
+- [ ] Make the programm calculate SHM params, based on initial conditions t=0 
+- [x] Calculator style SHM- simple haromonic motion. Pendelum and springs 
 - [ ] Learn how to draw stuff on the screen haha. might use an game engine like piston, ggez or graphics library like wgpu?
 
 ## Goals

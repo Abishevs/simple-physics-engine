@@ -19,6 +19,20 @@ pub struct SHMParams{
     amplitude: f64,
 }
 
+impl SHMParams {
+    fn calculate_angular_velocity(&mut self, obj_mass: Mass, spring_constant:f64){
+        match obj_mass{
+            Mass::Value(mass) => {
+                self.angular_velocity = (spring_constant / mass).sqrt();
+            }
+            Mass::MassLess => {
+                self.angular_velocity = 0.0;
+            }
+        }
+
+    }
+}
+
 #[derive(Debug)]
 pub struct Spring {
     spring_constant: f64, // spring constant 
